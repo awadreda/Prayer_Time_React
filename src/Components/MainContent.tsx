@@ -24,6 +24,7 @@ type APIRespose = {
   };
 };
 
+
 const CityOptions: { [key: string]: string } = {
   Cairo: "القاهرة",
   Alexandria: "الإسكندرية",
@@ -153,7 +154,6 @@ export default function MainContent() {
 
     }
 
-    // SetCounderDownTimer();
   useEffect(() => {
 
     const interval = setInterval(() => {
@@ -270,9 +270,6 @@ export default function MainContent() {
           }}
         >
           {CitiesToShow}
-          {/* <MenuItem value={"Cairo"}>القاهرة</MenuItem>
-          <MenuItem value={"Alexandria"}>الإسكندرية</MenuItem>
-          <MenuItem value={"Qena"}>قنا</MenuItem> */}
         </Select>
       </FormControl>
 
