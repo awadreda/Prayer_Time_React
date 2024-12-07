@@ -201,27 +201,27 @@ export default function MainContent() {
         justifyContent={"space-around"}
       >
         <Prayer
-          image="../../src/Images/01.jpg"
+          image="../../dist/Images/01.jpg"
           nameOfPrayer="الفجر"
           timeOfPreyer={timings.Fajr}
         />
         <Prayer
-          image="../../src/Images/02.jpg"
+          image="../../dist/Images/02.jpg"
           nameOfPrayer="الظهر"
           timeOfPreyer={timings.Dhuhr}
         />
         <Prayer
-          image="../../src/Images/03.jpg"
+          image="../../dist/Images/03.jpg"
           nameOfPrayer="العصر"
           timeOfPreyer={timings.Asr}
         />
         <Prayer
-          image="../../src/Images/04.jpg"
+          image="../../dist/Images/04.jpg"
           nameOfPrayer="المغرب"
           timeOfPreyer={timings.Maghrib}
         />
         <Prayer
-          image="../../src/Images/05.jpg"
+          image="../../dist/Images/05.jpg"
           nameOfPrayer="العشاء"
           timeOfPreyer={timings.Isha}
         />
